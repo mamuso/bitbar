@@ -1,0 +1,25 @@
+{
+  "name": "bitbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "netlify-ftp.30min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "hasha": "^5.1.0",
+    "is-online": "^8.2.1",
+    "lodash": "^4.17.15",
+    "lodash.capitalize": "^4.2.1",
+    "lodash.isequal": "^4.5.0",
+    "minimatch": "^3.0.4",
+    "netlify": "^2.4.8",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "recursive-readdir": "^2.2.2"
+  }
+}

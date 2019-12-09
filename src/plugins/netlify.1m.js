@@ -9,7 +9,7 @@ const https = require("https");
 const url = require("url");
 const querystring = require("querystring");
 
-const API_TOKEN = process.env.NETLIFY_TOKEN;
+const API_TOKEN = process.env.NETLIFY_AUTH_TOKEN;
 
 // All my images as base64 strings
 const imgLogo =
