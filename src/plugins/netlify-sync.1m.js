@@ -174,52 +174,19 @@ async function getCurrentFileDigest() {
   });
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Runs a deploy of our directory. Returns a promise which resolves to a value
  * @returns {Deploy}
  */
 async function deploy() {
-
   const start = new Date();
   let log = "";
   const addLineToLog = str => {
     log = log + str + "\n";
   };
 
-
-
-  return netlify.deploy(SITE_ID, SRC_DIR, {
+  return netlify
+    .deploy(SITE_ID, SRC_DIR, {
       message: `Manual deploy from Netlify bitbar script`,
       filter: filepath => filepath && !minimatch(filepath, IGNORE_PATTERN),
       statusCb: ev => {
