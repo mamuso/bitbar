@@ -11,7 +11,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
-    "hasha": "^5.1.0",
+    "hasha": "^5.2.2",
     "is-online": "^8.2.1",
     "lodash": "^4.17.15",
     "lodash.capitalize": "^4.2.1",
