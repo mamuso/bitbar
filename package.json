@@ -16,7 +16,7 @@
     "lodash": "^4.17.15",
     "lodash.capitalize": "^4.2.1",
     "lodash.isequal": "^4.5.0",
-    "minimatch": "^3.0.4",
+    "minimatch": "^3.0.5",
     "netlify": "^2.4.8",
     "os": "^0.1.1",
     "path": "^0.12.7",
